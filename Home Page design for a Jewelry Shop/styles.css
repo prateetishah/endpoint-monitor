@@ -1,0 +1,68 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 0.5;
+    margin-right: 0.5;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+header > img{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    align-items: center;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+.card {
+    text-align: center;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 10px 40px 40px 10px rgba(0,0,0,0.2);
+}
+
+a:link {text-decoration: none;}
+a:visited {color: red;}
+a:hover {text-decoration: underline; color: purple;}
+a:active {color: yellow;}
