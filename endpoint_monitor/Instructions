@@ -1,0 +1,5 @@
+Install Python and pip. (python3 get-pip.py)
+Install requests, time and yaml modules. (pip install requests, pip install pyyaml)
+Add yaml file or change the code in input.yaml file to list out endpoint inputs.
+Run program. Give yaml input file and interval for health check as arguments. (e.g. python3 main.py input.yaml 15)
+This will log domain wise availability percentage every 15 seconds.
